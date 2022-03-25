@@ -28,11 +28,8 @@ header{
     margin-top: 45px;
     list-style: none;
     font-weight:550;
-    color: aqua;
-
-
 }
-a{
+.container a{
     text-decoration: none;
     padding: 11px;
     font-size: 16px;
@@ -119,12 +116,17 @@ footer{
     width: 100%;
     height: 59vh;
     border: 2px solid black;
+    color: white;
+    background-color: #405464;
+}
+footer a{
+    color: white;
 }
 .logo-footer{
     width: 200px;
 }
 .itens-estudante{
-    margin: 10px;
+    margin: 14px;
 }
 ul{
     font-size: 17px;
@@ -134,7 +136,11 @@ ul{
     display: flex;
     justify-content: space-around;
     margin-top: 8vh;
+    width: 95vw;
 }
 #calado{
     margin-top: auto;
+}
+#perg-fre{
+    margin: auto 0px auto 0px;
 }
